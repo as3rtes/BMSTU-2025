@@ -7,24 +7,23 @@ int main() {
 	int arr[10];
 
 	for (int i =0; i < 10; i++) {
-		setlocale(LC_ALL, "rus");
-		wcout << L"Введите элемент " << i + 1 << ":";
+		cout << "Enter the element " << i + 1 << ":";
 		cin >> arr[i];
 	}
 
-	wcout << L"Ваш массив: " << " ";
+	cout << "Your array: " << " ";
 	for (int j = 0; j < 10; j++) {
 		cout << arr[j] << " ";
 	}
 
 	cout << endl;
-	wcout << L"Сумма элементов: " << " ";
+	cout << "The sum of the elements: " << " ";
 	for (int k = 0; k < 10; k++) {
 		sum += arr[k];
 	}
 
 	cout << sum << " " << endl;
-	wcout << L"Минимальное число: ";
+	wcout << "Minimum number: ";
 	for (int n = 0; n < 10; n++) {
 		if (arr[n] < max) {
 			max = arr[n];
@@ -43,7 +42,7 @@ int main() {
 		}
 	}
 
-	wcout << L"Ваш массив в отсортированном виде: ";
+	cout << "Your array is in sorted form: ";
 	for (int end = 0; end < 10; end++) {
 		cout << arr[end]<< " ";
 	}

@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	double sol;
 	setlocale(LC_ALL, "rus");
-	wcout << L"¬ведите заработную плату:";
+	wcout << L"Enter the salary:";
 	cin >> sol;
 
 	if (sol < 50001) {

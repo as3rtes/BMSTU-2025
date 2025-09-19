@@ -3,8 +3,7 @@ using namespace std;
 
 int main() {
 	int count;
-	setlocale(LC_ALL, "rus");
-	wcout; L"Enter the number of plates: ";
+	cout; L"Enter the number of plates: ";
 	cin >> count;
 
 	for (int i = 0; i < count + 1; i++) {
@@ -13,3 +12,4 @@ int main() {
 
 	return 0;
 }
+

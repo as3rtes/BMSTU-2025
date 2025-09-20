@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int count;
-	cout; L"Enter the number of plates: ";
+	cout; "Enter the number of plates: ";
 	cin >> count;
 
 	for (int i = 0; i < count + 1; i++) {
@@ -12,4 +12,5 @@ int main() {
 
 	return 0;
 }
+
 

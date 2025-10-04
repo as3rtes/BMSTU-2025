@@ -10,7 +10,7 @@ int main() {
     int min_index = 0, max_index = 0;
 
 
-    for (short i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cout << "Enter " << i + 1 << " element: ";
         cin >> arr[i];
 

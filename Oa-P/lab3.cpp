@@ -295,7 +295,6 @@ void displayAllProducts() {
 void clearOutputFile() {
     ofstream output("output.txt");
     output << "Program log" << endl;
-    output << "Start: " << __TIME__ << endl;
     output.close();
 }
 
@@ -342,7 +341,6 @@ int main() {
             break;
         default:
             cout << "Wrong choice!" << endl;
-            break;
         }
 
     } while (choice != 0);

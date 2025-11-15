@@ -342,6 +342,7 @@ int main() {
             break;
         default:
             cout << "Wrong choice!" << endl;
+            break;
         }
 
     } while (choice != 0);

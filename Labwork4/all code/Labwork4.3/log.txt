@@ -1,0 +1,162 @@
+Sat Dec 13 02:48:41 2025 - Успешное подключение к БД
+Sat Dec 13 02:53:09 2025 - Добавлена категория: Mouse
+Sat Dec 13 03:03:53 2025 - Успешное подключение к БД
+Sat Dec 13 03:04:47 2025 - Добавлен продукт: Logitech g104
+Sat Dec 13 03:05:20 2025 - Добавлена продажа продукта ID: 9
+Sat Dec 13 03:05:52 2025 - Добавлена категория: Displays
+Sat Dec 13 03:07:10 2025 - Добавлен продукт: Asus ULTRA4K
+Sat Dec 13 03:11:18 2025 - Успешное подключение к БД
+Sat Dec 13 03:19:51 2025 - Успешное подключение к БД
+Sat Dec 13 03:23:50 2025 - Успешное подключение к БД
+Sat Dec 13 03:24:56 2025 - Успешное подключение к БД
+Sat Dec 13 03:25:37 2025 - Добавлен продукт: apple
+Sat Dec 13 03:33:54 2025 - Программа запущена
+Sat Dec 13 03:33:54 2025 - Подключение к БД успешно
+Sat Dec 13 03:38:55 2025 - Программа запущена
+Sat Dec 13 03:38:55 2025 - Подключение к БД успешно
+Sat Dec 13 08:53:14 2025 - Программа запущена
+Sat Dec 13 08:53:14 2025 - Подключение к БД успешно
+Sat Dec 13 09:03:22 2025 - Программа запущена
+Sat Dec 13 09:03:22 2025 - Подключение к БД успешно
+Sat Dec 13 09:03:32 2025 - Программа запущена
+Sat Dec 13 09:03:32 2025 - Подключение к БД успешно
+Sat Dec 13 09:03:41 2025 - Программа запущена
+Sat Dec 13 09:03:41 2025 - Подключение к БД успешно
+Sat Dec 13 09:19:42 2025 - Программа запущена
+Sat Dec 13 09:19:42 2025 - Подключение к БД успешно
+Sat Dec 13 09:25:31 2025 - Программа запущена
+Sat Dec 13 09:25:31 2025 - Подключение к БД успешно
+Sat Dec 13 09:26:32 2025 - Программа запущена
+Sat Dec 13 09:26:32 2025 - Подключение к БД успешно
+Sat Dec 13 09:26:45 2025 - Программа запущена
+Sat Dec 13 09:26:45 2025 - Подключение к БД успешно
+Sat Dec 13 09:32:49 2025 - Программа запущена
+Sat Dec 13 09:32:49 2025 - Подключение к БД успешно
+Sat Dec 13 09:37:24 2025 - Программа запущена
+Sat Dec 13 09:37:24 2025 - Подключение к БД успешно
+Sat Dec 13 09:42:54 2025 - Программа запущена
+Sat Dec 13 09:42:54 2025 - Подключение к БД успешно
+Sat Dec 13 09:47:45 2025 - Программа запущена
+Sat Dec 13 09:47:45 2025 - Подключение к БД успешно
+Sat Dec 13 09:48:05 2025 - Программа запущена
+Sat Dec 13 09:48:05 2025 - Подключение к БД успешно
+Sat Dec 13 09:48:45 2025 - Программа запущена
+Sat Dec 13 09:48:46 2025 - Подключение к БД успешно
+Sat Dec 13 09:49:08 2025 - Program started
+Sat Dec 13 09:49:08 2025 - Database files initialized
+Sat Dec 13 09:49:08 2025 - Category added: Electronics (ID: 1)
+Sat Dec 13 09:49:08 2025 - Category added: Clothing (ID: 2)
+Sat Dec 13 09:49:08 2025 - Category added: Software (ID: 3)
+Sat Dec 13 09:49:08 2025 - Category added: Books (ID: 4)
+Sat Dec 13 09:49:08 2025 - Physical product added: Laptop (ID: 1)
+Sat Dec 13 09:49:08 2025 - Physical product added: T-shirt (ID: 2)
+Sat Dec 13 09:49:08 2025 - Digital product added: Windows 10 (ID: 3)
+Sat Dec 13 09:49:08 2025 - Digital product added: C++ Book (ID: 4)
+Sat Dec 13 09:49:08 2025 - Sale recorded: Product 1, Quantity 3
+Sat Dec 13 09:49:08 2025 - Sale recorded: Product 2, Quantity 5
+Sat Dec 13 09:49:08 2025 - Sale recorded: Product 3, Quantity 2
+Sat Dec 13 09:49:08 2025 - Sale recorded: Product 1, Quantity 1
+Sat Dec 13 09:49:08 2025 - Sale recorded: Product 4, Quantity 4
+Sat Dec 13 09:49:08 2025 - Sample data added
+Sat Dec 13 09:57:54 2025 - Program started
+Sat Dec 13 09:57:54 2025 - Database files initialized
+Sat Dec 13 09:59:04 2025 - Программа запущена
+Sat Dec 13 09:59:38 2025 - Программа запущена
+Sat Dec 13 09:59:42 2025 - Программа завершена
+Sat Dec 13 09:59:49 2025 - Программа завершена
+Sat Dec 13 10:16:33 2025 - Программа запущена
+Sat Dec 13 10:16:36 2025 - Программа завершена
+Sat Dec 13 10:17:13 2025 - Программа запущена
+Sat Dec 13 10:17:17 2025 - Программа завершена
+Sat Dec 13 10:17:44 2025 - Программа запущена
+Sat Dec 13 10:17:44 2025 - Подключение к БД успешно
+Sat Dec 13 10:17:44 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:17:44 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:17:44 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:17:44 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:17:44 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:17:44 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:24:26 2025 - Программа запущена
+Sat Dec 13 10:24:27 2025 - Подключение к БД успешно
+Sat Dec 13 10:24:27 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:24:27 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:24:27 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:24:27 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:24:27 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:24:27 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - Программа запущена
+Sat Dec 13 10:24:40 2025 - Подключение к БД успешно
+Sat Dec 13 10:24:40 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:24:40 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - Программа запущена
+Sat Dec 13 10:24:43 2025 - Подключение к БД успешно
+Sat Dec 13 10:24:43 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:24:43 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:24:56 2025 - Программа запущена
+Sat Dec 13 10:24:57 2025 - Подключение к БД успешно
+Sat Dec 13 10:24:57 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:24:57 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:24:57 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:24:57 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:24:57 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:24:57 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - Программа запущена
+Sat Dec 13 10:25:36 2025 - Подключение к БД успешно
+Sat Dec 13 10:25:36 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:25:36 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:26:00 2025 - Программа запущена
+Sat Dec 13 10:26:05 2025 - Программа завершена
+Sat Dec 13 10:26:41 2025 - Программа запущена
+Sat Dec 13 10:26:41 2025 - Подключение к БД успешно
+Sat Dec 13 10:26:41 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:26:41 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:26:41 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:26:41 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:26:41 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:26:41 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - Программа запущена
+Sat Dec 13 10:32:15 2025 - Подключение к БД успешно
+Sat Dec 13 10:32:15 2025 - SQL: CREATE TABLE IF NOT EXISTS categories (    id SERIAL PRIMARY KEY,    category_name VARCHAR(100) NOT NULL UNIQUE) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - SQL: CREATE TABLE IF NOT EXISTS products (    id SERIAL PRIMARY KEY,    name VARCHAR(200) NOT NULL,    price DECIMAL(10, 2) NOT NULL,    quantity INTEGER DEFAULT 0,    category_id INTEGER REFERENCES categories(id)) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - SQL: CREATE TABLE IF NOT EXISTS sales (    id SERIAL PRIMARY KEY,    product_id INTEGER REFERENCES products(id),    sale_date DATE DEFAULT CURRENT_DATE,    quantity_sold INTEGER NOT NULL) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_categories_name ON categories(category_name) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_products_name ON products(name) - УСПЕХ
+Sat Dec 13 10:32:15 2025 - SQL: CREATE INDEX IF NOT EXISTS idx_sales_date ON sales(sale_date) - УСПЕХ
+Sat Dec 13 10:32:30 2025 - Программа запущена
+Sat Dec 13 10:32:38 2025 - Программа завершена
+Sat Dec 13 10:33:10 2025 - Программа запущена
+Sat Dec 13 10:33:10 2025 - Подключение к БД успешно
+Sat Dec 13 10:34:24 2025 - Программа запущена
+Sat Dec 13 10:34:24 2025 - Подключение к БД успешно
+Sat Dec 13 10:35:02 2025 - Программа запущена
+Sat Dec 13 10:35:03 2025 - Подключение к БД успешно
+Sat Dec 13 10:35:25 2025 - Программа запущена
+Sat Dec 13 10:35:25 2025 - Подключение к БД успешно
+Sat Dec 13 10:36:12 2025 - Программа запущена
+Sat Dec 13 10:36:12 2025 - Подключение к БД успешно
+Sat Dec 13 10:39:23 2025 - Программа запущена
+Sat Dec 13 10:39:23 2025 - Подключение к БД успешно
+Sat Dec 13 10:39:33 2025 - Программа запущена
+Sat Dec 13 10:39:36 2025 - Программа завершена
+Sat Dec 13 10:40:11 2025 - Программа запущена
+Sat Dec 13 10:40:11 2025 - Подключение к БД успешно
+Sat Dec 13 10:40:36 2025 - Программа завершена
+Sat Dec 13 10:41:40 2025 - Программа запущена
+Sat Dec 13 10:41:40 2025 - Подключение к БД успешно
+Sat Dec 13 10:42:11 2025 - Добавлен продукт: Golden HyperX 1023 (ID: 15)
+Sat Dec 13 10:43:24 2025 - Продажа: продукт ID 15, количество 14
+Sat Dec 13 10:43:32 2025 - Продажа: продукт ID 3, количество 3
+Sat Dec 13 10:43:46 2025 - Продажа: продукт ID 10, количество 5
+Sat Dec 13 10:45:37 2025 - Программа завершена

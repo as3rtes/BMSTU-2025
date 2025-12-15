@@ -1,0 +1,7 @@
+Residential;Green House;9;1200;120-10;John|Mary
+Residential;Sunrise;16;3000;240-12;Alice
+Office;Business Center;12;2000;65-15;CorpA|CorpB
+Office;Tech Tower;20;5000;180-20;CorpC
+Residential;Oak Apartments;10;1500;100-10;David
+Office;Innovation Hub;15;3500;120-18;CorpD|CorpE
+Residential;Skyline;25;5000;300-20;Eve|Frank
